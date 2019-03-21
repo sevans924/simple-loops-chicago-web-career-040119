@@ -1,6 +1,17 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
+
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  counter = 0
+  loop do
+    counter +=1
+    puts phrase
+    if counter >= number_of_times
+      breaks
+    end
+  end
+  end
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
   # The integer is the number of times the loops should puts out the phrase
@@ -10,7 +21,7 @@ def loop_iterator(number_of_times)
   #  phrase and break when the counter hits the appropriate number...
 
 
-    phrase = "Welcome to Flatiron School's Web Development Course!"
+  
   
 
 
